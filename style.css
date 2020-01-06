@@ -11,3 +11,10 @@
     height: 500px;
 
 }
+
+.title {
+    background-color: lightblue;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}

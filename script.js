@@ -1,5 +1,5 @@
 var city = $('.city');
-var APIKey = "166a433c57516f51dfab1f7edaed8413";
+var APIKey = "e72942c796089957ced10632dd7d5f7f";
 var queryUrl = "https://api.openweathermap.org/data/2.5/weather?" +
     "q=" + city + ",utah&units=imperial&appid=" + APIKey;
 // var weatherCard = $(".wcard")
@@ -9,7 +9,7 @@ var submit = $('.sbmt');
 $(submit).on("click", function () {
     var city = $(".city").val().trim()
 
-    var APIKey = "166a433c57516f51dfab1f7edaed8413";
+    var APIKey = "e72942c796089957ced10632dd7d5f7f";
     var queryUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + ",utah&units=imperial&appid=" + APIKey;
     $.ajax({
         url: queryUrl,
