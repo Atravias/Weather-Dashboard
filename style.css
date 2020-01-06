@@ -18,3 +18,9 @@
     text-align: center;
     align-content: center;
 }
+.tomorrow, .three-days-from-today, .two-days-from-today, .four-days-from-today, .five-days-from-today {
+
+    font: small;
+    height: 80px;
+    width: 60px;
+}
