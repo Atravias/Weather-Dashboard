@@ -1,26 +1,63 @@
+body {
+    background-image: url('https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/high-clouds.jpg');
+}
+
 .wcard {
     height: 200px;
     width: 150px;
+    background-color: lightblue;
+    
 }
 
-.jumbotron {
-    align-self: right;
+.container {
+    width: 954px !important;
 }
 
 #searcher {
-    height: 500px;
+    height: 200px;
 
 }
 
 .title {
     background-color: lightblue;
     width: 100%;
-    text-align: center;
+    text-align: middle;
     align-content: center;
 }
-.tomorrow, .three-days-from-today, .two-days-from-today, .four-days-from-today, .five-days-from-today {
+.one, .two, .three, .four, .five {
+    inline-size: auto;
+    width: 163px;
+    background-color: lightblue;
+    padding: 0px 15px;
+   
+}
+.one {
+    float: left;
 
-    font: small;
-    height: 80px;
-    width: 60px;
+}
+
+.two {
+    float: left;
+
+}
+.three {
+    float: left;
+
+}
+
+.four {
+    float: left;
+
+}
+
+.five {
+    float: right;
+
+}
+.row {
+    width: 100%;
+}
+input {
+    padding: 5px;
+    border-top: 5px;
 }
